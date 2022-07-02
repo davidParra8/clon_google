@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: white;
+    color: #000000;    
+    font-size: 1rem;
+    font: 1rem 'Roboto';
+}
+
+header{    
+    flex-direction: row;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding-top: 1rem; 
+    align-items: center;
+}
+
+.menu,
+.footer-link{
+    display: inline-block;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.menu a, 
+.footer-link a{
+    text-decoration: none; 
+    color: inherit;
+}
+
+.menu a:hover, 
+.footer-link a:hover{
+    border-bottom: 1px solid black;
+}
+
+main{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    height: 6rem;
+    width: 17rem;
+}
+
+.logoGoogle{
+    margin-bottom: 1rem;
+}
+
+.busquedaTexto{
+    margin-bottom: 2rem;
+    border: 1px solid gray;
+    border-radius: 30px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.busquedaTexto:hover,
+.busquedaTexto:focus{
+    box-shadow: .1rem .1rem .4rem 0 gray;
+}
+
+#input-search{
+    height: 2.5rem;
+    width: 30rem;
+}
+
+#input-search,
+#input-search:active{
+    border: 0;
+    outline: none;
+}
+
+#input-search:hover{
+    cursor: text;
+}
+
+.alinearIconos{
+    margin: 0rem 1rem;
+    bottom: 20rem;
+}
+
+.alinearIconos:hover{
+    cursor: pointer;
+}
+
+#busqueda:hover{
+    cursor: default;
+}
+
+#search,
+#lucky{
+    border: 0px;
+    padding: .7rem;
+    margin: .5rem;
+    background-color: rgba(189, 184, 184, 0.13);
+    border-radius: .4rem;
+}
+
+#search:hover,
+#lucky:hover{
+    box-shadow: .03rem .03rem .03rem .06rem rgba(128, 128, 128, 0.445);
+}
+
+#search:active,
+#lucky:active,
+#search:focus,
+#lucky:focus{
+    box-shadow: .03rem .03rem .03rem .06rem rgba(2, 61, 255, 0.445);
+}
+
+.idioma{
+    margin-top: 2rem;
+}
+
+.idioma a{
+    text-decoration: none; 
+    color: rgb(4, 4, 207);
+}
+
+.idioma a:hover{
+    border-bottom: 1px solid ;
+}
+
+footer{
+    background-color:rgba(219, 219, 219, 0.575);
+    display: block;
+    
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+}
+
+footer section{
+    display: flex;
+    flex-wrap: wrap;    
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+}
+
+#pais{    
+    border-bottom: 1px solid rgba(88, 87, 87, 0.253); 
+}
